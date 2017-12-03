@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+button {
+    width: 100%;
+    border: none;
+    font-size: inherit;
+    padding: 10px;
+    border-radius: 0;
+    cursor: pointer;
+    color: #000000;
+    background-color: #ffffff;
+    transition: color 0.5s, background-color 0.5s;
+}
+.input_button {
+    width: 32%;
+}
+input {
+    width: 100%;
+    font-size: inherit;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    transition: color 0.5s, background-color 0.5s;
+}
+input:focus {
+    background-color: #000000;
+    color: #ffffff;
+}
+#container {
+    width: 300px;
+    font-size: 20px;
+}
+#show_tabsets {
+    overflow: scroll;
+    max-height: 300px;
+}
+.tabsetWrapper {
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: background-color 0.5s;
+}
+li:hover {
+    color: black;
+}
+.tabsetWrapper_save > li:hover {
+    background-color: #FFD200;
+}
+.tabsetWrapper_remove > li:hover {
+    background-color: #EB2D00;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}

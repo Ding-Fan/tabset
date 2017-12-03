@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TabSet</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+</head>
+<body>
+    <h1 id="flash">Hello user.</h1>
+    <div id="container">
+        <div id="input_component">
+                <button type="button" id="save_tabset_flag" class="input_button" alt="Add this tab to"><i class="fa fa-archive" aria-hidden="true"></i></button>
+                <button type="button" id="remove_tabset_flag" class="input_button" alt="Remove this tab set"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                <button type="button" id="new_tabset" class="input_button" alt="Create Tab Set"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                <input id="new_tabset_name" type="text">
+        </div>
+        <div id="show_tabsets">
+            <ul></ul>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
